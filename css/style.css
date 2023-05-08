@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    height: 90vh;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#text {
+    font-size: 16px;
+}
+
+.moreText {
+    display: none;
+}
+
+#read-more-btn {
+    padding: 15px 60px;
+    background-color: rgb(239, 47, 8);
+    color: rgb(255, 254, 254);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text.show-more .dots {
+    display: none;
+}
