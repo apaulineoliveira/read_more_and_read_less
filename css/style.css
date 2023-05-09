@@ -5,29 +5,31 @@ body {
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    height: 90vh;
+    height: 100vh;
     max-width: 800px;
     margin: 0 auto;
-}
-
-#text {
-    font-size: 16px;
-}
-
-.moreText {
+    background-color: rgb(17, 30, 40);
+    color: aliceblue;
+  }
+  text {
+    font-size: 24px;
+  }
+  .moreText {
     display: none;
-}
-
-#read-more-btn {
+  }
+  .read-more-btn {
     padding: 15px 60px;
-    background-color: rgb(239, 47, 8);
-    color: rgb(255, 254, 254);
+    background-color: rgb(25, 182, 210);
+    color: rgb(255, 255, 255);
     border: none;
+    border-radius: 15px;
     outline: none;
     font-size: 20px;
     cursor: pointer;
-}
-
-.text.show-more .dots {
+  }
+  .text.show-more .moreText {
+    display: inline;
+  }
+  .text.show-more .dots {
     display: none;
-}
+  }
