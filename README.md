@@ -12,7 +12,7 @@
   
   ```
   readMoreBtn.addEventListener("click"...);
-  //continuação do código acima no documento index.js//
+  //continuação do código acima no documento index.js
   if (readMoreBtn.innerText === "Read More") {
     readMoreBtn.innerText = "Read More";
   } else {
