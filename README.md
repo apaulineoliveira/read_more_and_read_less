@@ -15,7 +15,7 @@
   //continuação do código acima no documento index.js//
   if (readMoreBtn.innerText === "Read More") {
     readMoreBtn.innerText = "Read More";
-    } else {
-        readMoreBtn.innerText = "Read More";
+  } else {
+    readMoreBtn.innerText = "Read More";
   ```
   <li>Analisando essa outra parte do código é possível visualizar a utilização do evento "click" com o método <code>addEventListener</code> que permite que funções sejam chamadas quando um evento específico acontecer, neste caso, trata-se do <b>click</b>, esse evento será desparado ao usuário clicar no botão ler mais/ler menos (read more, read less).</li>
